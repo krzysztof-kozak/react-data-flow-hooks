@@ -26,6 +26,7 @@ h1,
 .listWrapper {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   background: rgba(215, 215, 219, 0.685);
   border-radius: 1em;
   padding: 1em 0.5em;
@@ -47,6 +48,7 @@ h1,
 
 .list {
   list-style: none;
+  padding: 0;
 }
 
 .list__item {
